@@ -1,0 +1,1403 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "name": "DGP Sreenanda P M",
+      "designation": "Director General of Police",
+      "lastLogin": "2026-08-11T10:21:36.611Z",
+      "badgeId": "POL-2026-0001",
+      "email": "sreenanda@crimegpt.gov.in",
+      "phone": "+91 98765 43210",
+      "department": "Director General of Police",
+      "notificationsEnabled": true,
+      "language": "English",
+      "twoFactorEnabled": true,
+      "officeLocation": "All"
+    },
+    {
+      "id": "u2",
+      "username": "vinay",
+      "password": "investigator123",
+      "role": "Investigator",
+      "name": "Inspector Vinay Kumar",
+      "designation": "Sub-Inspector, Sector 1 Station",
+      "lastLogin": "2026-08-10T06:40:59.367Z",
+      "officeLocation": "Central District"
+    },
+    {
+      "id": "u3",
+      "username": "sneha",
+      "password": "analyst123",
+      "role": "Analyst",
+      "name": "ACP Sneha Hegde",
+      "designation": "Crime Branch Analyst",
+      "officeLocation": "South District"
+    },
+    {
+      "id": "u4",
+      "username": "satish",
+      "password": "supervisor123",
+      "role": "Supervisor",
+      "name": "DCP Satish Gowda",
+      "designation": "Supervising Officer, South District",
+      "officeLocation": "District C"
+    },
+    {
+      "id": "u5",
+      "username": "kirang",
+      "password": "password123",
+      "role": "Investigator",
+      "name": "Kiran Gowda",
+      "designation": "Sub-Inspector, Investigation Department",
+      "badgeId": "POL-2026-8841",
+      "email": "",
+      "department": "Investigation Department",
+      "officeLocation": "Central District"
+    },
+    {
+      "id": "u6",
+      "username": "meeran",
+      "password": "password123",
+      "role": "Analyst",
+      "name": "Meera Nair",
+      "designation": "Senior Analyst, Cyber Cell",
+      "badgeId": "POL-2026-9021",
+      "email": "",
+      "department": "Cyber Cell",
+      "officeLocation": "Central District"
+    },
+    {
+      "id": "u7",
+      "username": "sah",
+      "password": "123",
+      "role": "Investigator",
+      "name": "sahana",
+      "designation": "detective (Badge #SA-1234)",
+      "badgeId": "SA-1234",
+      "email": "officer@gmail.com",
+      "department": "detective",
+      "lastLogin": "2026-08-03T04:49:59.356Z",
+      "officeLocation": "District E"
+    },
+    {
+      "id": "u8",
+      "username": "siva",
+      "password": "siva",
+      "role": "Investigator",
+      "name": "Siva",
+      "designation": "CBI (Badge #KP-11234)",
+      "badgeId": "KP-11234",
+      "email": "siva@gmail.com",
+      "department": "CBI",
+      "lastLogin": "2026-08-10T06:19:43.198Z",
+      "twoFactorEnabled": true,
+      "officeLocation": "District E"
+    },
+    {
+      "id": "u9",
+      "username": "testofficer",
+      "password": "password123",
+      "role": "Investigator",
+      "name": "Test Officer",
+      "designation": "Test Dept (Badge #POL-2026-TEST)",
+      "badgeId": "POL-2026-TEST",
+      "email": "test@agency.gov",
+      "department": "Test Dept",
+      "officeLocation": "Central District"
+    },
+    {
+      "id": "u10",
+      "username": "rameshk",
+      "password": "password123",
+      "role": "Investigator",
+      "name": "Ramesh Kumar",
+      "designation": "Crime Branch (Badge #POL-2026-9912)",
+      "badgeId": "POL-2026-9912",
+      "email": "ramesh@crimegpt.gov.in",
+      "department": "Crime Branch",
+      "status": "Suspended",
+      "lastLogin": "2026-08-11T10:05:43.367Z",
+      "officeLocation": "Central District"
+    }
+  ],
+  "firs": [
+    {
+      "firNumber": "FIR-2026-1024",
+      "date": "2026-06-15",
+      "crimeType": "Burglary",
+      "description": "Residential burglary reported at 4th Block Sector 1. Double lock broken on main entrance door between 2:00 PM and 6:00 PM. Gold ornaments weighing 120 grams and a laptop stolen.",
+      "status": "Under Investigation",
+      "investigatingOfficer": "Inspector Vinay Kumar",
+      "district": "Central District",
+      "coordinates": {
+        "lat": 12.9307,
+        "lng": 77.5801
+      },
+      "victimId": "v1",
+      "criminalIds": [
+        "c1",
+        "c2"
+      ],
+      "riskScore": 68
+    },
+    {
+      "firNumber": "FIR-2026-1025",
+      "date": "2026-06-18",
+      "crimeType": "Cybercrime",
+      "description": "Phishing scam targetting elderly residents in Sector 5. The suspect posed as bank official from SBI and obtained OTPs under pretext of KYC renewal. Defrauded 10,00,000 INR from victim's account.",
+      "status": "Under Investigation",
+      "investigatingOfficer": "ACP Sneha Hegde",
+      "district": "North District",
+      "coordinates": {
+        "lat": 13.021,
+        "lng": 77.5921
+      },
+      "victimId": "v2",
+      "criminalIds": [
+        "c2"
+      ],
+      "riskScore": 84
+    },
+    {
+      "firNumber": "FIR-2026-1026",
+      "date": "2026-06-01",
+      "crimeType": "Theft",
+      "description": "Historical bronze artifact stolen from Palace Museum gallery room 4. The glass display case was carefully sliced open. Guard reported missing during shift change.",
+      "status": "Chargesheet Filed",
+      "investigatingOfficer": "DCP Satish Gowda",
+      "district": "District C",
+      "coordinates": {
+        "lat": 12.3051,
+        "lng": 76.6551
+      },
+      "victimId": "v3",
+      "criminalIds": [
+        "c1"
+      ],
+      "riskScore": 45
+    },
+    {
+      "firNumber": "FIR-2026-1027",
+      "date": "2026-06-25",
+      "crimeType": "Homicide",
+      "description": "Fatal dispute at Sector 2 Parking Lot. Victim found with multiple stab wounds to upper chest. Witness reports seeing two suspects fleeing on a black Royal Enfield.",
+      "status": "Under Investigation",
+      "investigatingOfficer": "ACP Sneha Hegde",
+      "district": "South District",
+      "coordinates": {
+        "lat": 12.9352,
+        "lng": 77.6244
+      },
+      "victimId": "v4",
+      "criminalIds": [
+        "c3"
+      ],
+      "riskScore": 95
+    },
+    {
+      "firNumber": "FIR-2026-1028",
+      "date": "2026-05-10",
+      "crimeType": "Fraud",
+      "description": "Investment scam promising 25% monthly returns. Pre-IPO tech stock fraud. Suspect collected 1.5 Crores INR from multiple local investors and shut down the office in Sector 6.",
+      "status": "Closed",
+      "investigatingOfficer": "Inspector Vinay Kumar",
+      "district": "Central District",
+      "coordinates": {
+        "lat": 12.9784,
+        "lng": 77.6408
+      },
+      "victimId": "v5",
+      "criminalIds": [
+        "c2",
+        "c4"
+      ],
+      "riskScore": 75
+    },
+    {
+      "firNumber": "FIR-2026-1029",
+      "date": "2026-06-10",
+      "crimeType": "Armed Robbery",
+      "description": "Gold merchant cornered near Hampankatta area, District E. Three masked men armed with country-made pistols intercepted his vehicle and snatched briefcase containing jewellery samples worth 30 Lakhs.",
+      "status": "Pending",
+      "investigatingOfficer": "ACP Sneha Hegde",
+      "district": "District E",
+      "coordinates": {
+        "lat": 12.8701,
+        "lng": 74.84
+      },
+      "victimId": "v6",
+      "criminalIds": [
+        "c1",
+        "c3"
+      ],
+      "riskScore": 90
+    },
+    {
+      "firNumber": "FIR-2026-1030",
+      "date": "2026-04-12",
+      "crimeType": "Assault",
+      "description": "A physical clash occurred between two local factions in District D during a cultural procession. Soda bottles and sticks used. Four people injured, two sub-inspectors sustained minor bruises.",
+      "status": "Closed",
+      "investigatingOfficer": "Inspector Vinay Kumar",
+      "district": "District D",
+      "coordinates": {
+        "lat": 15.3647,
+        "lng": 75.124
+      },
+      "victimId": "v7",
+      "criminalIds": [],
+      "riskScore": 50
+    },
+    {
+      "firNumber": "FIR-2026-1031",
+      "date": "2026-08-03",
+      "crimeType": "Theft",
+      "description": "the theft happened in shop ",
+      "status": "Pending",
+      "investigatingOfficer": "sreenanda",
+      "district": "District E",
+      "coordinates": {
+        "lat": 12.8701,
+        "lng": 74.84
+      },
+      "victimId": "v8",
+      "criminalIds": [],
+      "riskScore": 50
+    }
+  ],
+  "criminals": [
+    {
+      "criminalId": "c1",
+      "name": "Ramesh \"Spider\" Gowda",
+      "age": 34,
+      "gender": "Male",
+      "address": "Mico Layout, Central District",
+      "criminalHistory": "Accused in 8 cases of house breaking and night theft across south Central District. Expert at climbing drainage pipes. Linked to Sector 1 theft and District C museum case.",
+      "riskScore": 82
+    },
+    {
+      "criminalId": "c2",
+      "name": "Harish Shah",
+      "age": 41,
+      "gender": "Male",
+      "address": "Whitefield, Central District",
+      "criminalHistory": "Specializes in white-collar corporate fraud, digital wallet phishing, shell company creation. Operating Ponzi scheme under the alias 'Apex Global Capital'.",
+      "riskScore": 78
+    },
+    {
+      "criminalId": "c3",
+      "name": "Vikram \"Vikky\" Shetty",
+      "age": 28,
+      "gender": "Male",
+      "address": "Yashwanthpura, Central District",
+      "criminalHistory": "Previous arrests for assault, extortion, armed robbery. Gang affiliations. High risk of violent recidivism. Primary suspect in Sector 2 parking homicide.",
+      "riskScore": 94
+    },
+    {
+      "criminalId": "c4",
+      "name": "Anand Malhotra",
+      "age": 52,
+      "gender": "Male",
+      "address": "Sector 8, Central District",
+      "criminalHistory": "Ex-banker, financial consultant. Convicted in 2021 for forging land registries. Cooperated in the Indra Nagar ponzi probe as a key co-conspirator.",
+      "riskScore": 60
+    }
+  ],
+  "victims": [
+    {
+      "victimId": "v1",
+      "name": "Aarav Sharma",
+      "age": 39,
+      "gender": "Male",
+      "address": "Sector 1 Area, Central District"
+    },
+    {
+      "victimId": "v2",
+      "name": "Priyanjali Das",
+      "age": 68,
+      "gender": "Female",
+      "address": "Sector 5 Area, Central District"
+    },
+    {
+      "victimId": "v3",
+      "name": "Museum Heritage Trust",
+      "age": 100,
+      "gender": "Other",
+      "address": "Palace Road, District C"
+    },
+    {
+      "victimId": "v4",
+      "name": "Family of Rajeev Mehta (Deceased)",
+      "age": 31,
+      "gender": "Male",
+      "address": "Sector 2 Residential Area, Central District"
+    },
+    {
+      "victimId": "v5",
+      "name": "Lakshmi Narayan",
+      "age": 45,
+      "gender": "Female",
+      "address": "Sector 6, Central District"
+    },
+    {
+      "victimId": "v6",
+      "name": "K. R. Jewellery Stores",
+      "age": 48,
+      "gender": "Other",
+      "address": "Hampankatta, District E"
+    },
+    {
+      "victimId": "v7",
+      "name": "Suresh Patil",
+      "age": 26,
+      "gender": "Male",
+      "address": "Keshwapur, District D"
+    },
+    {
+      "victimId": "v8",
+      "name": "sri",
+      "age": 30,
+      "gender": "Male",
+      "address": "chennai"
+    }
+  ],
+  "evidence": [
+    {
+      "evidenceId": "ev1",
+      "firNumber": "FIR-2026-1024",
+      "description": "Fingerprint scan lifted from rear bathroom window pane. Matches Ramesh Gowda in AFIS database.",
+      "fileName": "fingerprint_lifted_v4.png",
+      "fileSize": "2.4 MB",
+      "dateUploaded": "2026-06-16"
+    },
+    {
+      "evidenceId": "ev2",
+      "firNumber": "FIR-2026-1027",
+      "description": "9mm fired cartridge casing recovered near parking booth pillar C3.",
+      "fileName": "9mm_casing_photo.jpg",
+      "fileSize": "1.8 MB",
+      "dateUploaded": "2026-06-25"
+    },
+    {
+      "evidenceId": "ev3",
+      "firNumber": "FIR-2026-1025",
+      "description": "Digital log showing bank transfer path IP tracing. Points to a proxy server hosted in Russia.",
+      "fileName": "cyber_ip_hops.log",
+      "fileSize": "12 KB",
+      "dateUploaded": "2026-06-19"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1786443696621_447",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-11T10:21:36.622Z"
+    },
+    {
+      "id": "log_1786443374206_533",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update User Status",
+      "details": "Set status of user rameshk to Suspended",
+      "timestamp": "2026-08-11T10:16:14.206Z"
+    },
+    {
+      "id": "log_1786443063188_766",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-11T10:11:03.188Z"
+    },
+    {
+      "id": "log_1786442743373_623",
+      "username": "rameshk",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-11T10:05:43.373Z"
+    },
+    {
+      "id": "log_1786442657473_549",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-11T10:04:17.473Z"
+    },
+    {
+      "id": "log_1786344522231_114",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T06:48:42.231Z"
+    },
+    {
+      "id": "log_1786344059370_965",
+      "username": "vinay",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T06:40:59.370Z"
+    },
+    {
+      "id": "log_1786343920654_640",
+      "username": "rameshk",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T06:38:40.654Z"
+    },
+    {
+      "id": "log_1786343870410_479",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update User Status",
+      "details": "Set status of user rameshk to Active",
+      "timestamp": "2026-08-10T06:37:50.410Z"
+    },
+    {
+      "id": "log_1786343816974_627",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T06:36:56.974Z"
+    },
+    {
+      "id": "log_1786343749382_571",
+      "username": "rameshk",
+      "role": "Investigator",
+      "action": "User Registration",
+      "details": "New account registered under designation: Crime Branch (Badge #POL-2026-9912)",
+      "timestamp": "2026-08-10T06:35:49.382Z"
+    },
+    {
+      "id": "log_1786342783201_174",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T06:19:43.201Z"
+    },
+    {
+      "id": "log_1786342731028_651",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T06:18:51.028Z"
+    },
+    {
+      "id": "log_1786337614946_785",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T04:53:34.948Z"
+    },
+    {
+      "id": "log_1786336602002_756",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"tell me about the current cases ...\"",
+      "timestamp": "2026-08-10T04:36:42.002Z"
+    },
+    {
+      "id": "log_1786336581409_936",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"tell me about the current cases in mysuru...\"",
+      "timestamp": "2026-08-10T04:36:21.409Z"
+    },
+    {
+      "id": "log_1786336439019_556",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T04:33:59.020Z"
+    },
+    {
+      "id": "log_1786336408219_941",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update Profile",
+      "details": "Updated personal profile information.",
+      "timestamp": "2026-08-10T04:33:28.219Z"
+    },
+    {
+      "id": "log_1786336337205_890",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-10T04:32:17.205Z"
+    },
+    {
+      "id": "log_1786267821599_9",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "Toggle 2FA",
+      "details": "Two-factor authentication enabled.",
+      "timestamp": "2026-08-09T09:30:21.599Z"
+    },
+    {
+      "id": "log_1786267774639_285",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "Toggle 2FA",
+      "details": "Two-factor authentication disabled.",
+      "timestamp": "2026-08-09T09:29:34.639Z"
+    },
+    {
+      "id": "log_1786266785692_113",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "Toggle 2FA",
+      "details": "Two-factor authentication enabled.",
+      "timestamp": "2026-08-09T09:13:05.692Z"
+    },
+    {
+      "id": "log_1786266190822_831",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-09T09:03:10.822Z"
+    },
+    {
+      "id": "log_1786266115526_809",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-09T09:01:55.526Z"
+    },
+    {
+      "id": "log_1786266049755_773",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update Settings",
+      "details": "Updated account preferences and configuration.",
+      "timestamp": "2026-08-09T09:00:49.755Z"
+    },
+    {
+      "id": "log_1786266047524_971",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update Settings",
+      "details": "Updated account preferences and configuration.",
+      "timestamp": "2026-08-09T09:00:47.524Z"
+    },
+    {
+      "id": "log_1786266046343_820",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update Settings",
+      "details": "Updated account preferences and configuration.",
+      "timestamp": "2026-08-09T09:00:46.343Z"
+    },
+    {
+      "id": "log_1786266043007_89",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update Settings",
+      "details": "Updated account preferences and configuration.",
+      "timestamp": "2026-08-09T09:00:43.007Z"
+    },
+    {
+      "id": "log_1786180476506_809",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T09:14:36.506Z"
+    },
+    {
+      "id": "log_1786180318855_457",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T09:11:58.855Z"
+    },
+    {
+      "id": "log_1786180102757_633",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T09:08:22.757Z"
+    },
+    {
+      "id": "log_1786179978565_793",
+      "username": "testofficer",
+      "role": "Investigator",
+      "action": "User Registration",
+      "details": "New account registered under designation: Test Dept (Badge #POL-2026-TEST)",
+      "timestamp": "2026-08-08T09:06:18.565Z"
+    },
+    {
+      "id": "log_1786179767780_557",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T09:02:47.780Z"
+    },
+    {
+      "id": "log_1786178577543_239",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update Profile",
+      "details": "Updated personal profile information.",
+      "timestamp": "2026-08-08T08:42:57.544Z"
+    },
+    {
+      "id": "log_1786165596989_239",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Change Password",
+      "details": "Successfully updated account password.",
+      "timestamp": "2026-08-08T05:06:36.993Z"
+    },
+    {
+      "id": "log_1786165518922_490",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Toggle 2FA",
+      "details": "Two-factor authentication enabled.",
+      "timestamp": "2026-08-08T05:05:18.922Z"
+    },
+    {
+      "id": "log_1786165475591_927",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Change Password",
+      "details": "Successfully updated account password.",
+      "timestamp": "2026-08-08T05:04:35.592Z"
+    },
+    {
+      "id": "log_1786165362500_348",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update Settings",
+      "details": "Updated account preferences and configuration.",
+      "timestamp": "2026-08-08T05:02:42.501Z"
+    },
+    {
+      "id": "log_1786165312838_270",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Update Profile",
+      "details": "Updated personal profile information.",
+      "timestamp": "2026-08-08T05:01:52.838Z"
+    },
+    {
+      "id": "log_1786164657063_426",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T04:50:57.064Z"
+    },
+    {
+      "id": "log_1786164337467_331",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T04:45:37.467Z"
+    },
+    {
+      "id": "log_1786163512953_847",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T04:31:52.953Z"
+    },
+    {
+      "id": "log_1786163401072_737",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-08T04:30:01.072Z"
+    },
+    {
+      "id": "log_1786163306283_110",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T04:28:26.283Z"
+    },
+    {
+      "id": "log_1786162875516_362",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T04:21:15.516Z"
+    },
+    {
+      "id": "log_1786161613089_64",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T04:00:13.089Z"
+    },
+    {
+      "id": "log_1786160959327_844",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-08T03:49:19.327Z"
+    },
+    {
+      "id": "log_1785994585634_978",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-06T05:36:25.634Z"
+    },
+    {
+      "id": "log_1785994564965_85",
+      "username": "siva",
+      "role": "Investigator",
+      "action": "User Registration",
+      "details": "New account registered under designation: CBI (Badge #KP-11234)",
+      "timestamp": "2026-08-06T05:36:04.965Z"
+    },
+    {
+      "id": "log_1785733440695_383",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-03T05:04:00.695Z"
+    },
+    {
+      "id": "log_1785733405913_673",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-03T05:03:25.913Z"
+    },
+    {
+      "id": "log_1785733229657_571",
+      "username": "sah",
+      "role": "Investigator",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1031",
+      "timestamp": "2026-08-03T05:00:29.657Z"
+    },
+    {
+      "id": "log_1785733220171_845",
+      "username": "sah",
+      "role": "Investigator",
+      "action": "Create Case",
+      "details": "Registered a new FIR: FIR-2026-1031",
+      "timestamp": "2026-08-03T05:00:20.171Z"
+    },
+    {
+      "id": "log_1785733052780_241",
+      "username": "sah",
+      "role": "Investigator",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-03T04:57:32.780Z"
+    },
+    {
+      "id": "log_1785733022613_264",
+      "username": "sah",
+      "role": "Investigator",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"tell me about the recent theft reports...\"",
+      "timestamp": "2026-08-03T04:57:02.614Z"
+    },
+    {
+      "id": "log_1785732972501_228",
+      "username": "sah",
+      "role": "Investigator",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"tell me the child missing cases...\"",
+      "timestamp": "2026-08-03T04:56:12.501Z"
+    },
+    {
+      "id": "log_1785732945631_126",
+      "username": "sah",
+      "role": "Investigator",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"tell me more crime hotspots...\"",
+      "timestamp": "2026-08-03T04:55:45.631Z"
+    },
+    {
+      "id": "log_1785732599358_149",
+      "username": "sah",
+      "role": "Investigator",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-03T04:49:59.358Z"
+    },
+    {
+      "id": "log_1785732585940_595",
+      "username": "sah",
+      "role": "Investigator",
+      "action": "User Registration",
+      "details": "New account registered under designation: detective (Badge #SA-1234)",
+      "timestamp": "2026-08-03T04:49:45.940Z"
+    },
+    {
+      "id": "log_1785690668467_766",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Show burglary cases in Central District...\"",
+      "timestamp": "2026-08-02T17:11:08.467Z"
+    },
+    {
+      "id": "log_1785690600105_791",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1027",
+      "timestamp": "2026-08-02T17:10:00.105Z"
+    },
+    {
+      "id": "log_1785690434570_647",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T17:07:14.570Z"
+    },
+    {
+      "id": "log_1785689064771_774",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T16:44:24.771Z"
+    },
+    {
+      "id": "log_1785688985521_61",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Show burglary cases in Central District this month...\"",
+      "timestamp": "2026-08-02T16:43:05.521Z"
+    },
+    {
+      "id": "log_1785688936399_396",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T16:42:16.399Z"
+    },
+    {
+      "id": "log_1785688845705_503",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T16:40:45.705Z"
+    },
+    {
+      "id": "log_1785688414049_842",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Show burglary cases in Central District this month...\"",
+      "timestamp": "2026-08-02T16:33:34.049Z"
+    },
+    {
+      "id": "log_1785688349317_9",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T16:32:29.317Z"
+    },
+    {
+      "id": "log_1785688312511_44",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T16:31:52.511Z"
+    },
+    {
+      "id": "log_1785687786422_4",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T16:23:06.422Z"
+    },
+    {
+      "id": "log_1785687127054_412",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T16:12:07.054Z"
+    },
+    {
+      "id": "log_1785686762446_618",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T16:06:02.446Z"
+    },
+    {
+      "id": "log_1785686526595_658",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T16:02:06.595Z"
+    },
+    {
+      "id": "log_1785685506625_690",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T15:45:06.625Z"
+    },
+    {
+      "id": "log_1785684151015_223",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T15:22:31.015Z"
+    },
+    {
+      "id": "log_1785684053303_934",
+      "username": "meeran",
+      "role": "Analyst",
+      "action": "User Registration",
+      "details": "New account registered under designation: Senior Analyst, Cyber Cell",
+      "timestamp": "2026-08-02T15:20:53.303Z"
+    },
+    {
+      "id": "log_1785683810609_851",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T15:16:50.609Z"
+    },
+    {
+      "id": "log_1785683444452_285",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T15:10:44.452Z"
+    },
+    {
+      "id": "log_1785683434576_651",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T15:10:34.576Z"
+    },
+    {
+      "id": "log_1785672270228_84",
+      "username": "kirang",
+      "role": "Investigator",
+      "action": "User Registration",
+      "details": "New account registered under designation: Sub-Inspector, Investigation Department",
+      "timestamp": "2026-08-02T12:04:30.229Z"
+    },
+    {
+      "id": "log_1785670468355_248",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T11:34:28.355Z"
+    },
+    {
+      "id": "log_1785670459661_928",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-02T11:34:19.661Z"
+    },
+    {
+      "id": "log_1785670162644_576",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-02T11:29:22.644Z"
+    },
+    {
+      "id": "log_1785596729937_984",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T15:05:29.937Z"
+    },
+    {
+      "id": "log_1785596140023_968",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T14:55:40.023Z"
+    },
+    {
+      "id": "log_1785595731397_824",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T14:48:51.397Z"
+    },
+    {
+      "id": "log_1785594384233_854",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T14:26:24.233Z"
+    },
+    {
+      "id": "log_1785594352582_39",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Provide me the details of Child missing cases from June 2026...\"",
+      "timestamp": "2026-08-01T14:25:52.582Z"
+    },
+    {
+      "id": "log_1785571950523_975",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T08:12:30.523Z"
+    },
+    {
+      "id": "log_1785571744053_674",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T08:09:04.053Z"
+    },
+    {
+      "id": "log_1785571680736_654",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T08:08:00.736Z"
+    },
+    {
+      "id": "log_1785571680705_226",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Link Suspect",
+      "details": "Linked criminal ID c2 to case FIR-2026-1024",
+      "timestamp": "2026-08-01T08:08:00.705Z"
+    },
+    {
+      "id": "log_1785571597440_772",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T08:06:37.440Z"
+    },
+    {
+      "id": "log_1785571578755_142",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T08:06:18.755Z"
+    },
+    {
+      "id": "log_1785571572787_684",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T08:06:12.787Z"
+    },
+    {
+      "id": "log_1785564184469_833",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T06:03:04.469Z"
+    },
+    {
+      "id": "log_1785564173242_766",
+      "username": "admin",
+      "role": "Admin",
+      "action": "View Case Details",
+      "details": "Accessed case files for FIR-2026-1024",
+      "timestamp": "2026-08-01T06:02:53.242Z"
+    },
+    {
+      "id": "log_1785563166031_926",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Show theft cases in District C...\"",
+      "timestamp": "2026-08-01T05:46:06.031Z"
+    },
+    {
+      "id": "log_1785563104137_863",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Show burglary cases in Central District...\"",
+      "timestamp": "2026-08-01T05:45:04.137Z"
+    },
+    {
+      "id": "log_1785561792941_837",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Show burglary cases in Central District...\"",
+      "timestamp": "2026-08-01T05:23:12.941Z"
+    },
+    {
+      "id": "log_1785561480045_838",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-08-01T05:18:00.045Z"
+    },
+    {
+      "id": "log_1785323642592_739",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-29T11:14:02.592Z"
+    },
+    {
+      "id": "log_1785085621207_367",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-26T17:07:01.207Z"
+    },
+    {
+      "id": "log_1785084276162_140",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-26T16:44:36.162Z"
+    },
+    {
+      "id": "log_1784993482211_277",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-25T15:31:22.211Z"
+    },
+    {
+      "id": "log_1784869224920_205",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-24T05:00:24.920Z"
+    },
+    {
+      "id": "log_1784795579517_850",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-23T08:32:59.517Z"
+    },
+    {
+      "id": "log_1784787932535_158",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-23T06:25:32.535Z"
+    },
+    {
+      "id": "log_1784716896399_851",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Harrasement Crimes occured at Central District...\"",
+      "timestamp": "2026-07-22T10:41:36.399Z"
+    },
+    {
+      "id": "log_1784716775483_27",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Harrasement Crimes occured at Central District...\"",
+      "timestamp": "2026-07-22T10:39:35.483Z"
+    },
+    {
+      "id": "log_1784716728655_117",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Harrasement Crimes occured at Central District...\"",
+      "timestamp": "2026-07-22T10:38:48.655Z"
+    },
+    {
+      "id": "log_1784716458284_832",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Provide the Harrasement Crime records occured at Central District c...\"",
+      "timestamp": "2026-07-22T10:34:18.284Z"
+    },
+    {
+      "id": "log_1784716434136_192",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Provide theft cases in District C from last week...\"",
+      "timestamp": "2026-07-22T10:33:54.136Z"
+    },
+    {
+      "id": "log_1784716290394_940",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Harrasement Crimes occured at Central District...\"",
+      "timestamp": "2026-07-22T10:31:30.394Z"
+    },
+    {
+      "id": "log_1784716185797_453",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Show repeat offenders...\"",
+      "timestamp": "2026-07-22T10:29:45.797Z"
+    },
+    {
+      "id": "log_1784715223681_905",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"test query...\"",
+      "timestamp": "2026-07-22T10:13:43.681Z"
+    },
+    {
+      "id": "log_1784715172032_469",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Show burglary cases...\"",
+      "timestamp": "2026-07-22T10:12:52.032Z"
+    },
+    {
+      "id": "log_1784714988223_985",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Harrasement Crimes occured at Central District...\"",
+      "timestamp": "2026-07-22T10:09:48.223Z"
+    },
+    {
+      "id": "log_1784714886059_150",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Harrasement Crimes occured at Central District ...\"",
+      "timestamp": "2026-07-22T10:08:06.059Z"
+    },
+    {
+      "id": "log_1784714249719_18",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-22T09:57:29.719Z"
+    },
+    {
+      "id": "log_1784347980033_654",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-18T04:13:00.033Z"
+    },
+    {
+      "id": "log_1783746193258_740",
+      "username": "admin",
+      "role": "Admin",
+      "action": "Chat Query",
+      "details": "Queried CrimeGPT: \"Provide theft cases in District C from last week...\"",
+      "timestamp": "2026-07-11T05:03:13.258Z"
+    },
+    {
+      "id": "log_1783746126262_251",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-11T05:02:06.262Z"
+    },
+    {
+      "id": "log_1783741772590_288",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-11T03:49:32.590Z"
+    },
+    {
+      "id": "log_1783741729857_172",
+      "username": "admin",
+      "role": "Admin",
+      "action": "User Login",
+      "details": "Successfully logged into the console.",
+      "timestamp": "2026-07-11T03:48:49.857Z"
+    },
+    {
+      "id": "log1",
+      "username": "system",
+      "role": "Admin",
+      "action": "Database Initialized",
+      "details": "Default system seed data loaded with Central District crime datasets.",
+      "timestamp": "2026-07-03T09:00:00Z"
+    }
+  ]
+}
